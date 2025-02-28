@@ -7,10 +7,6 @@ public class FeeCalculator {
         // Calculate final amount to pay
         double finalAmount = fee - discount;
         // Display the result
-        System.out.println(
-            "The original course fee is INR " + fee + "\n" +
-            "The discount offered is INR " + discount + "\n" +
-            "The final amount to be paid is INR " + finalAmount
-        );
+        System.out.println("The discount amount is INR " + discount + " and final discounted fee is INR " + finalAmount);
     }
 }
