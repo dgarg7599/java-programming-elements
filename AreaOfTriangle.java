@@ -9,7 +9,7 @@ public class AreaOfTriangle {
         double height = input.nextDouble();
         // Calculate area in square centimeters
         double areaCm2 = 0.5 * base * height;
-        // Convert area from square cm to square inches (1 cm² = 0.155 sq in)
+        // Convert area from cm square to square inches (1 cm² = 0.155 sq in)
         double areaInches2 = areaCm2 * 0.155;
         // Display the result
         System.out.println("The area of the triangle is " + areaCm2 + " cm2 and " + areaInches2 + " square inches.");
