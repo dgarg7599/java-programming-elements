@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PurchasePriceCalculator {
+public class PriceCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the unit price (INR): ");
