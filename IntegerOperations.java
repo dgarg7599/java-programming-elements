@@ -1,7 +1,7 @@
 import java.util.Scanner;
-
 public class IntegerOperations {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the first number (a): ");
