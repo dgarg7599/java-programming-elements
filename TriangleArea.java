@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TriangleAreaCalculator {
+public class TriangleArea {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the base of the triangle (in cm): ");
